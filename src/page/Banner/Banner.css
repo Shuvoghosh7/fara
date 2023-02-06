@@ -1,0 +1,42 @@
+.banner{
+    background-image: url(../../Assets/banner.jpeg);
+    min-height: 559px;
+    width: 100%;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.banner-contant{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+.banner-title1{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+.banner-title2{
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+.banner-text{
+    color:rgb(20, 18, 19);
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .banner-contant{
+        position: absolute;
+        top: 80px;
+        left: 10px;
+    }
+    .banner-title1{
+        font-size: 20px;
+    }
+}
