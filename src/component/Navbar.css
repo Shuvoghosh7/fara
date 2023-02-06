@@ -75,13 +75,17 @@
       position: absolute;
       right: 0;
       top: 60px;
-      background-color: #fef7e5;
+      background: white;
       width: 0px;
       height: calc(100vh - 60px);
       transition: all 0.3s ease-in;
       overflow: hidden;
+      overflow: auto;
     }
-  
+    .nav-elements ul a{
+      color: black;
+      
+    }
     .nav-elements.active {
       width: 270px;
     }
