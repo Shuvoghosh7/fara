@@ -7,6 +7,7 @@ import MehndiCeremony from './MehndiCeremony/MehndiCeremony';
 import OurService from './OurService/OurService';
 import OurStory from './OurStory/OurStory';
 import RiceWeaning from './RiceWeaning/RiceWeaning';
+import SpecialOccasions from './SpecialOccasions/SpecialOccasions';
 
 
 const Home = () => {
@@ -21,6 +22,7 @@ const Home = () => {
                 <BabyShower/>
                 <RiceWeaning/>
                 <MehndiCeremony/>
+                <SpecialOccasions/>
             </div>
         </div>
     );
