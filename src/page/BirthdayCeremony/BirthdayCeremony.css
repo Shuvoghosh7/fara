@@ -1,0 +1,47 @@
+.Birthday-Ceremony{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.birthday-ceremony-img img{
+    width: 480px;
+    height: 250px;
+}
+.birthday-ceremony-text{
+    margin-top: 25px;
+}
+.birthday-ceremony-text h1{
+    margin-left: 20px;
+    color: #e7ad41;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.birthday-ceremony-text h2{
+    font-weight: 500;
+    margin-bottom: 10px; 
+}
+.birthday-ceremony-text h3{
+    text-align: justify;
+}
+.birthday-ceremony-text p{
+    color: #e7ad41;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .Birthday-Ceremony{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .Birthday-Ceremony{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+}
