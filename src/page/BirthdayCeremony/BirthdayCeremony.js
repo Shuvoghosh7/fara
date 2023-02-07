@@ -9,7 +9,7 @@ const BirthdayCeremony = () => {
             </div>
             <div className='birthday-ceremony-text'>
             <h1>FARA EVENT PLANNER</h1>
-                <h2>Wedding Ceremony</h2>
+                <h2>Birthday Ceremony</h2>
                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum amet cum facilis nobis laborum, necessitatibus debitis numquam fuga, neque perferendis ipsam maiores reprehenderit magni, in sint veritatis mollitia libero qui? Autem quos ratione optio, </h3>
                 <p>JOIN FARA EVENT PLANNER</p>
             </div>
