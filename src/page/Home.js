@@ -7,6 +7,7 @@ import MehndiCeremony from './MehndiCeremony/MehndiCeremony';
 import OurService from './OurService/OurService';
 import OurStory from './OurStory/OurStory';
 import RiceWeaning from './RiceWeaning/RiceWeaning';
+import Services from './Services/Services';
 import SpecialOccasions from './SpecialOccasions/SpecialOccasions';
 
 
@@ -23,7 +24,9 @@ const Home = () => {
                 <RiceWeaning/>
                 <MehndiCeremony/>
                 <SpecialOccasions/>
+                <Services/>
             </div>
+            
         </div>
     );
 };
