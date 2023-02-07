@@ -1,0 +1,47 @@
+.rice-weaning{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+.rice-weaning-img img{
+    width: 480px;
+    height: 250px;
+}
+.rice-weaning-text{
+    margin-top: 25px;
+}
+.rice-weaning-text h1{
+    margin-left: 20px;
+    color: #e7ad41;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.rice-weaning-text h2{
+    font-weight: 500;
+    margin-bottom: 10px; 
+}
+.rice-weaning-text h3{
+    text-align: justify;
+}
+.rice-weaning-text p{
+    color: #e7ad41;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .rice-weaning{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .rice-weaning{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 30px;
+    }
+}

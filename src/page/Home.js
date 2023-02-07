@@ -5,6 +5,7 @@ import Banner from './Banner/Banner';
 import BirthdayCeremony from './BirthdayCeremony/BirthdayCeremony';
 import OurService from './OurService/OurService';
 import OurStory from './OurStory/OurStory';
+import RiceWeaning from './RiceWeaning/RiceWeaning';
 
 
 const Home = () => {
@@ -17,6 +18,7 @@ const Home = () => {
                 <Anniversary/>
                 <BirthdayCeremony/>
                 <BabyShower/>
+                <RiceWeaning/>
             </div>
         </div>
     );
