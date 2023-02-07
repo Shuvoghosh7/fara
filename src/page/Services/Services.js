@@ -19,7 +19,7 @@ const Services = () => {
                     <img src={Cake} alt="" className='service-img'/>
                     <p className='services-title'>Cake Tables</p>
                     <p className='service-about'>Lorem ipsum dolor sit amet consectetur .</p>
-                    <p className='services-title'>Per Ddy <span>$100-$200</span></p>
+                    <p className='service-price'>Per Ddy <span>$100-$200</span></p>
                 </div>
                 <div>
                     <img src={Chair} alt="" className='service-img'/>
