@@ -1,0 +1,50 @@
+.event-stories{
+    margin-top: 70px;
+}
+.event-stories h1{
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+   
+}
+.our-event-stories{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.event-stories-img{
+    width: 450px;
+    height: 200px;
+    border-radius: 20px;
+}
+.event-stories-title{
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.event-stories-about{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.event-stories-date{
+    font-size: 14px;
+   font-weight: 300;
+}
+
+@media screen and (max-width: 768px) {
+    .our-event-stories{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .our-event-stories{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+    }
+}

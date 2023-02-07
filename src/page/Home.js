@@ -4,6 +4,7 @@ import BabyShower from './BabyShower/BabyShower';
 import Banner from './Banner/Banner';
 import BirthdayCeremony from './BirthdayCeremony/BirthdayCeremony';
 import BookSession from './BookSession/BookSession';
+import EventStories from './EventStories/EventStories';
 import MehndiCeremony from './MehndiCeremony/MehndiCeremony';
 import OurService from './OurService/OurService';
 import OurStory from './OurStory/OurStory';
@@ -28,6 +29,9 @@ const Home = () => {
                 <Services/>
             </div>
             <BookSession/>
+            <div className='content-page'>
+                <EventStories/>
+            </div>
             
         </div>
     );

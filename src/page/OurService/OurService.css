@@ -1,12 +1,21 @@
-
-.service-img img{
-    width: 430px;
-    height: 230px;
+.service{
+    margin-top: 60px;
+}
+.service-title{
+    font-size: 30px;
+    text-align: center;
+}
+.ser-img img{
+    width: 480px;
+    height: 250px;
+   
 }
 .our-service{
     margin-top: 70px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    gap: 70px;
+
 }
 .service-text{
     margin-top: 15px;
