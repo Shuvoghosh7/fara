@@ -1,45 +1,45 @@
-.baby-shower{
+.mehndi-ceremony{
     margin-top: 100px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 30px;
 }
 
-.baby-shower-img img{
+.mehndi-ceremony-img img{
     width: 480px;
     height: 250px;
 }
-.baby-shower-text{
+.mehndi-ceremony-text{
     margin-top: 25px;
 }
-.baby-shower-text h1{
+.mehndi-ceremony-text h1{
     margin-left: 20px;
     color: #e7ad41;
     font-weight: bold;
     margin-bottom: 10px;
 }
-.baby-shower-text h2{
+.mehndi-ceremony-text h2{
     font-weight: 500;
     margin-bottom: 10px;
 }
-.baby-shower-text h3{
+.mehndi-ceremony-text h3{
     text-align: justify;
 }
-.baby-shower-text p{
+.mehndi-ceremony-text p{
     color: #e7ad41;
     font-size: 12px;
     margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
-    .baby-shower{
+    .mehndi-ceremony{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-    .baby-shower{
+    .mehndi-ceremony{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap: 20px;
