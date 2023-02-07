@@ -60,6 +60,19 @@ const ClientReview = () => {
                     </div>
 
                 </SwiperSlide>
+                <SwiperSlide className="text-center">
+                    <div className="title" data-swiper-parallax="-300">
+                        <span>"</span> The Service Was Amazine.I Never had to wait that long for my food <span>"</span>
+                    </div>
+                    <div className="subtitle" data-swiper-parallax="-200">
+                        <div className="user-img">
+                            <img src={user} alt="" />
+                        </div>
+                        <h3>Jane Doe</h3>
+                        <h5>SomeCompany LLC</h5>
+                    </div>
+
+                </SwiperSlide>
                 
 
 

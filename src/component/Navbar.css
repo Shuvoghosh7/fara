@@ -14,9 +14,14 @@
     position: relative;
   }
   
-  .logo {
+  .brand-logo {
     color: white;
   }
+  .brand-logo img{
+    width: 40px;
+
+  }
+
   
   .menu-icon {
     display: none;
@@ -29,6 +34,7 @@
   .nav-elements ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     list-style-type: none;
   }
   
@@ -77,10 +83,11 @@
       top: 60px;
       background: white;
       width: 0px;
-      height: calc(100vh - 60px);
+      height: calc(100vh - 250px);
       transition: all 0.3s ease-in;
       overflow: hidden;
       overflow: auto;
+      z-index: 1;
     }
     .nav-elements ul a{
       color: black;
