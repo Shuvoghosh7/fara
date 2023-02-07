@@ -4,7 +4,9 @@ import BabyShower from './BabyShower/BabyShower';
 import Banner from './Banner/Banner';
 import BirthdayCeremony from './BirthdayCeremony/BirthdayCeremony';
 import BookSession from './BookSession/BookSession';
+import ClientReview from './ClientReview/ClientReview';
 import EventStories from './EventStories/EventStories';
+import Footer from './Footer/Footer';
 import MehndiCeremony from './MehndiCeremony/MehndiCeremony';
 import OurService from './OurService/OurService';
 import OurStory from './OurStory/OurStory';
@@ -32,7 +34,8 @@ const Home = () => {
             <div className='content-page'>
                 <EventStories/>
             </div>
-            
+            <ClientReview/>
+            <Footer/>
         </div>
     );
 };
