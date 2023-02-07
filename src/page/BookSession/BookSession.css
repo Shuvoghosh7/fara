@@ -1,0 +1,41 @@
+.session{
+    background-image: url(../../Assets/blur3.jpg);
+    min-height: 350px;
+    width: 100%;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.session-content{
+   text-align: center;
+   position: relative;
+   top: 100px; 
+}
+.session-content h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(22, 22, 12);
+}
+.session-btn{
+    margin-top: 50px;
+    border: 2px solid #241905;
+    padding: 8px 15px;
+    color: #301255;
+}
+
+@media screen and (max-width: 768px) {
+    .session-content{
+        position: relative;
+        top: 50px; 
+     }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .session-content{
+        position: relative;
+        top: 80px; 
+     }
+}
+
