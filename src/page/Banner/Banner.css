@@ -29,7 +29,9 @@
     font-size: 18px;
     margin-top: 20px;
 }
-
+.content-page{
+    margin: 55px 180px 75px;
+}
 @media screen and (max-width: 768px) {
     .banner-contant{
         position: absolute;
@@ -42,4 +44,8 @@
     .banner-text{
         color: white;
     }
+    .content-page{
+        margin: 55px 15px 55px;
+    }
 }
+

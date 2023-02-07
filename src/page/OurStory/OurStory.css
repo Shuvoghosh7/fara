@@ -1,6 +1,4 @@
-.ourStory{
-    margin: 55px 180px 75px;
-}
+
 .story-title{
     text-align: center;
     font-size: 30px;
@@ -23,9 +21,4 @@
 .story-btn button:hover{
     background-color: #FADA9D;
     color: black;
-}
-@media screen and (max-width: 768px) {
-    .ourStory{
-        margin: 55px 15px 55px;
-    }
 }

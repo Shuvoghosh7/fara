@@ -1,0 +1,42 @@
+.anniversary{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+}
+
+.anniversary-img img{
+    width: 480px;
+    height: 250px;
+}
+.anniversary-text{
+    margin-top: 25px;
+}
+.anniversary-text h1{
+    margin-left: 20px;
+    color: #e7ad41;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.anniversary-text h2{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.anniversary-text h3{
+    text-align: justify;
+
+}
+@media screen and (max-width: 768px) {
+    .anniversary{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+    .anniversary{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+}
